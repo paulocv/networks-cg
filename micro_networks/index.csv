@@ -104,7 +104,6 @@ random-hyperbolic-graphs,networks-cg/micro_networks/random-hyperbolic-graphs/RHG
 random-hyperbolic-graphs,networks-cg/micro_networks/random-hyperbolic-graphs/RHG_n=500_gamma=2.7_no_5.txt
 random-hyperbolic-graphs,networks-cg/micro_networks/random-hyperbolic-graphs/RHG_n=100_gamma=3.2_no_2.txt
 random-hyperbolic-graphs,networks-cg/micro_networks/random-hyperbolic-graphs/RHG_n=1000_gamma=3.2_no_3.txt
-random-hyperbolic-graphs,networks-cg/micro_networks/random-hyperbolic-graphs/dummy.file
 random-hyperbolic-graphs,networks-cg/micro_networks/random-hyperbolic-graphs/RHG_n=500_gamma=2.3_no_2.txt
 random-hyperbolic-graphs,networks-cg/micro_networks/random-hyperbolic-graphs/RHG_n=500_gamma=2.3_no_3.txt
 random-hyperbolic-graphs,networks-cg/micro_networks/random-hyperbolic-graphs/RHG_n=500_gamma=2.3_no_1.txt
