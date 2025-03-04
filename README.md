@@ -24,3 +24,22 @@ g = nx.erdos_renyi_graph(n=100, p=0.1)
 fpath = "example_output/my-graph.txt"
 nx.write_edgelist(g, fpath, data=False)
 ```
+
+You can also use [index.csv](/micro_networks/index.csv) to batch-load all networks in the dataset. Example using a pandas dataframe:
+
+```python
+import networkx as nx
+import pandas as pd
+
+# --- Load the index file
+index_fpath = Path("networks-cg/micro_networks/index.csv")
+index_df = pd.read_csv(index_fpath)
+
+for i_row, row in index_df.iterrows():
+    # --- Load the network, based on the value in the "file_path" column of `index.csv`
+    network_fpath = row["file_path"]
+    g = nx.read_edgelist(network_fpath)
+
+    # [.... Do stuff with g]
+
+```
