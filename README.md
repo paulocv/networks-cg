@@ -43,3 +43,16 @@ for i_row, row in index_df.iterrows():
     # [.... Do stuff with g]
 
 ```
+
+# Contributing
+
+To add a dataset of networks, please following these guidelines:
+
+- Create a fork of this repository.
+- Upload your network files inside a subdirectory of [micro_networks](/micro_networks). You may want to first create a dummy file to create the folder, if you're using GitHub's online interface.
+    - Please do not have empty spaces in the folder names.
+    - Check the names of existing folders and follow more or less the same convention for naming
+ 
+- Open a pull request to merge your files into the main repo.
+
+Please ask @paulocv if you have any questions.
