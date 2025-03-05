@@ -55,4 +55,6 @@ To add a dataset of networks, please following these guidelines:
  
 - Open a pull request to merge your files into the main repo.
 
+NOTE: We are using the edgelist format as default, so we can read with `nx.read_edgelist()`. Please let us know if your files are in a different format, so we can write a separate code for this.
+
 Please ask @paulocv if you have any questions.
